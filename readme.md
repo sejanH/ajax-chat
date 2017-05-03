@@ -33,7 +33,8 @@ ALTER TABLE `message`
   ADD CONSTRAINT `fk_reciepient` FOREIGN KEY (`reciepient`) REFERENCES `person` (`username`),
   ADD CONSTRAINT `fk_sender` FOREIGN KEY (`sender`) REFERENCES `person` (`username`);
 ```
---to enable foreign key constraints your database type shuould be InnoDB
+-- to enable foreign key constraints your database type shuould be InnoDB
+N.B: It works even without the foreign key constraints
 
 ### Prerequisites
 
