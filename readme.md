@@ -37,11 +37,10 @@ ALTER TABLE `message`
 
 ### Prerequisites
 
-```
--php v5.6 or higher
--mysql any version
--jQuery v3.1 or any
-```
+- php v5.6 or higher
+- mysql any version
+- jQuery v3.1 or any
+- Bootstrap css and js (design)
 
 ### Installing
 
