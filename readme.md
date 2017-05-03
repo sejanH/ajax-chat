@@ -50,6 +50,8 @@ Copy the code and paste into your git bash to clone my code
 ```
 https://github.com/sejanH/ajax-chat.git
 ```
+### After succesfull login home page looks like
+![screenshot_119](https://cloud.githubusercontent.com/assets/16546092/25648065/99dc283c-2fe9-11e7-8779-72057b434203.png)
 
 
 ## Author

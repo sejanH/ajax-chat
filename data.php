@@ -2,7 +2,7 @@
 require 'auth/dbcon.php';
 session_start();
 $me = $_SESSION['user'];
-date_default_timezone_set('Asia/Dhaka');
+//date_default_timezone_set('Asia/Dhaka');
 if($_GET['to']!='null')
 {
 	$to = $_GET['to'];
@@ -39,7 +39,7 @@ if($_GET['to']!='null')
 	}
 }
 else{
-	echo "<span class='alert alert-info'>Select a user</span>";echo $_GET['to'];	
+	echo "<span class='alert alert-info'>Select a user</span>"; 	
 }
 ?>
 
